@@ -8,3 +8,6 @@ results/
 .ipynb_checkpoints/
 *.swp
 .DS_Store
+DEMO_README.md
+HOW_TO_RUN.md
+PRESENTATION_GUIDE.md
