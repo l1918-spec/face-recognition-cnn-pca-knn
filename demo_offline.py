@@ -1,4 +1,3 @@
-"""Offline demo: pick a few Olivetti test faces, save as JPG, predict with all 3 models."""
 from pathlib import Path
 import numpy as np
 import cv2
