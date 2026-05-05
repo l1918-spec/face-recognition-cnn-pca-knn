@@ -1,0 +1,6 @@
+rm -rf data/raw
+python -m src.capture_faces --name lydia --count 3
+python -m src.capture_faces --name hadil --count 30
+python main.py --data data/raw
+python -m src.webcam_demo --model pca_knn
+python -m src.webcam_demo --model cnn
